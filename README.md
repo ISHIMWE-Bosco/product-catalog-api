@@ -4,9 +4,9 @@ This is a Node.js and Express-based REST API for managing a product catalog. It 
 ________________________________________
 Setup and Installation
 Prerequisites:
-•	Node.js (v14+)
-•	MongoDB (local or cloud instance)
-•	Git (optional)
+Node.js (v14+)
+MongoDB (local or cloud instance)	
+Git (optional)
 Installation Steps:
 1.	Clone the repository:
 bash
@@ -103,9 +103,9 @@ CopyEdit
 }
 ________________________________________
 5. Delete a Product
-•	Endpoint: DELETE /products/:id
-•	Example: DELETE /products/67dffcbb8f08032bedb71236
-•	Response:
+  •	Endpoint: DELETE /products/:id
+  •	Example: DELETE /products/67dffcbb8f08032bedb71236
+  •	Response:
 json
 CopyEdit
 {
